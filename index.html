@@ -14,12 +14,12 @@
 			<img src="q.png" alt="">
 		</div>
 
-		<form name="send" id="send" method="post" action="https://script.google.com/macros/s/AKfycbxhI_9IhciAROP2-3MNcxJOJlpmeynmGxhf8N3W409XsHEvZwLpM95XiV6BtTSjUig/exec">
+		<form name="send" id="send" method="post" action="https://script.google.com/macros/s/AKfycbz_9tWwCra9oBJfSRwWkHAuBOIMugUDMPbFgx-GfbxHi7mqSMO36R2N1O9wYgvxOn_8/exec">
 			<div class="q">
 			<input class="input" type="text" placeholder="الأسم (إختياري)" name="الأسم">
 		</div>
 		<div class="q">
-			<textarea id="name" name="كلام العضو" id="" cols="0" rows="4" placeholder="..عندك سؤال؟ لسى مو واضح لك شي؟ عندك أقتراح؟ هذه المساحه لك" required></textarea>
+			<textarea id="name" name="فضفضة العضو" id="" cols="0" rows="4" placeholder="..عندك سؤال؟ لسى مو واضح لك شي؟ عندك أقتراح؟ هذه المساحه لك" required></textarea>
 		</div>
 
 		<h2>ماهو شعورك وانت/ـي بين رحاب نادي أدِيب</h2>
@@ -69,7 +69,7 @@
 
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script>
-		const scriptURL = 'https://script.google.com/macros/s/AKfycbxhI_9IhciAROP2-3MNcxJOJlpmeynmGxhf8N3W409XsHEvZwLpM95XiV6BtTSjUig/exec'
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbz_9tWwCra9oBJfSRwWkHAuBOIMugUDMPbFgx-GfbxHi7mqSMO36R2N1O9wYgvxOn_8/exec'
 		const form = document.forms['send']
 		
 		form.addEventListener('submit', e => {
@@ -89,7 +89,7 @@
 	function sweetalertclick(){
 	Swal.fire({
 icon: 'error',
-title: '!يرجى ملئ الحقول المطلوبة',
+title: '!يرجى ملئ الحقول الفارغة ي شاطر',
 text: '',
 confirmButtonColor: '#0051b2',
 })}
